@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class CoinCollect : MonoBehaviour
 {
-    public GeneralManager generalManager;
+    public GameObject ps;
 
     void Start() {
-        transform.position = new Vector3(Random.Range(-5, 5),Random.Range(-1, 1),0) * 5;
+        transform.position = new Vector3(Random.Range(-5, 6),Random.Range(-1, 2),0) * 5;
     }
 
     void OnTriggerEnter2D(Collider2D col) {
         if(col.gameObject.tag == "Player") {
-            generalManager.score += 1;
+            Instantiate(ps, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
+
 }
