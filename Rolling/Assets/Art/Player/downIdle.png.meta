@@ -1,37 +1,19 @@
 fileFormatVersion: 2
-guid: 391515e51b9bc0d45812000e3225316c
+guid: 86879dda74b40d447b5b166ec0b27e1d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 368543389579951487
-    second: slime_0
+      213: 1064331091455261505
+    second: downIdle_0
   - first:
-      213: -458641133534639524
-    second: slime_1
+      213: 5556888765370816950
+    second: downIdle_1
   - first:
-      213: 2542698315722941828
-    second: slime_2
+      213: 3689154199675628052
+    second: downIdle_2
   - first:
-      213: -3711818451352614709
-    second: slime_3
-  - first:
-      213: -6875693984060724655
-    second: slime_4
-  - first:
-      213: 8065215198520230363
-    second: slime_5
-  - first:
-      213: 4776503984256234297
-    second: slime_0
-  - first:
-      213: 4559326070946689318
-    second: slime_1
-  - first:
-      213: 1973542626732925647
-    second: slime_2
-  - first:
-      213: 3247437416117090533
-    second: slime_3
+      213: -4643737022271106805
+    second: downIdle_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -75,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slime_0
+      name: downIdle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +113,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 933b4d1111d894240800000000000000
-      internalID: 4776503984256234297
+      spriteID: 14b38951d7345ce00800000000000000
+      internalID: 1064331091455261505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_1
+      name: downIdle_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,14 +134,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62174f9b7eaf54f30800000000000000
-      internalID: 4559326070946689318
+      spriteID: 6b95944f3e80e1d40800000000000000
+      internalID: 5556888765370816950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_2
+      name: downIdle_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,14 +155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc2e18f009e636b10800000000000000
-      internalID: 1973542626732925647
+      spriteID: 41a6e49d232823330800000000000000
+      internalID: 3689154199675628052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_3
+      name: downIdle_3
       rect:
         serializedVersion: 2
         x: 192
@@ -194,8 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e8b8f1df17311d20800000000000000
-      internalID: 3247437416117090533
+      spriteID: b01533528c12e8fb0800000000000000
+      internalID: -4643737022271106805
       vertices: []
       indices: 
       edges: []
