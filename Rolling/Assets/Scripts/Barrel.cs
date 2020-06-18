@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Barrel : MonoBehaviour
 {
+    public float moveSpeed;
+
     private Animator anim;
-    private float moveSpeed;
     private int dir;
     void Awake() {
         anim = GetComponent<Animator>();
@@ -13,16 +14,16 @@ public class Barrel : MonoBehaviour
         moveSpeed = Random.Range(5f, 10f);
         if (dir == 0) {
             transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, 0);
-            transform.position = new Vector3(-40, Random.Range(-1, 2) * 5, transform.position.z);
+            transform.position = new Vector3(-40, Random.Range(-2, 3) * 5, transform.position.z);
         } else if (dir == 1) {
             transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, 90);
-            transform.position = new Vector3(Random.Range(-4, 5) * 5, -20, transform.position.z);
+            transform.position = new Vector3(Random.Range(-3, 4) * 5, -20, transform.position.z);
         } else if (dir == 2) {
             transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, 180);
-            transform.position = new Vector3(40, Random.Range(-1,2) * 5, transform.position.z);
+            transform.position = new Vector3(40, Random.Range(-2, 3) * 5, transform.position.z);
         } else if (dir == 3) {
             transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, 270);
-            transform.position = new Vector3(Random.Range(-4, 5) * 5, 20, transform.position.z);
+            transform.position = new Vector3(Random.Range(-3, 4) * 5, 20, transform.position.z);
         }
         
     }
